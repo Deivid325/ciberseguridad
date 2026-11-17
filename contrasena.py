@@ -4,7 +4,7 @@ contrasena = "Hola1234"
 
 
 def comprobar_longitud(contrasena):
-    if len(contrasena) >= 10:
+    if len(contrasena) >= 12:
         return True
     else:
         return False
